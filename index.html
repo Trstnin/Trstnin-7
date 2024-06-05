@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <a href="#"><img src="images/logo.svg"></a>
+    </div>
+    <div id="simp-nav">
+      <div class="simp-nav">
+        <a href="#" class="dropbtn">Features <img src="images/icon-arrow-down.svg"></a>
+        <div class="dropdown" id="feature-down">
+          <a href="#" class="items"><img src="images/icon-todo.svg" alt=""> Todo List</a>
+          <a href="#" class="items"><img src="images/icon-calendar.svg"> Calendar</a>
+          <a href="#" class="items"><img src="images/icon-reminders.svg"> Reminders</a>
+          <a href="#" class="items"><img src="images/icon-planning.svg"> Planning</a>
+        </div>
+      </div>
+      <div class="simp-nav">
+        <a href="#" class="dropbtn">Company <img src="images/icon-arrow-down.svg"></a>
+        <div class="dropdown" id="company">
+          <a href="#" class="items">History</a>
+          <a href="#" class="items">Our Team</a>
+          <a href="#" class="items">Blog</a>
+        </div>
+      </div>
+      <div class="simp-nav">
+        <a href="career">Career</a>
+      </div>
+      <div class="simp-nav">
+        <a href="about">About</a>
+      </div>
+      <div id="last-nav">
+        <a href="login">Login</a>
+        <a href="register" id="register">Register</a>
+      </div>
+    </div>
+  </header>
+  <section id="middle-part">
+    <div id="hero-img">
+      <img src="images/image-hero-desktop.png" alt="hero-image">
+      <div id="written-part">
+        <div id="remote-work">
+          <h1 id="main-text">Make <br>remote Work</h1>
+        </div>
+        <div id="para">
+          <p>Get your team in sync, no matter your location. <br> Streamline processes, create team rituals, and <br>watch productivity soar.</p>
+        </div>
+        <div id="middle-btn">
+          <h4>Learn more</h4>
+        </div>
+        <div id="client-images">
+          <img src="images/client-audiophile.svg">
+          <img src="images/client-databiz.svg">
+          <img src="images/client-maker.svg">
+          <img src="images/client-meet.svg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
